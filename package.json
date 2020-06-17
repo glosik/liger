@@ -1,0 +1,29 @@
+{
+  "name": "liger",
+  "version": "1.0.0",
+  "description": "browser extension playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cd:ff": "cd ff",
+    "zip:ff": "zip -r -FS my-extension.zip * --exclude '*.git*'",
+    "start:ff": "web-ext run --source-dir ./ff/",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glosik/liger.git"
+  },
+  "keywords": [
+    "extension"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glosik/liger/issues"
+  },
+  "homepage": "https://github.com/glosik/liger#readme",
+  "devDependencies": {
+    "web-ext": "^4.2.0"
+  }
+}
