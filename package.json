@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cd:ff": "cd ff",
-    "zip:ff": "zip -r -FS my-extension.zip * --exclude '*.git*'",
+    "zip": "zip -r -FS my-extension.zip * --exclude '*.git*, node_modules'",
     "start:ff": "web-ext run --source-dir ./ff/",
     "build": ""
   },
