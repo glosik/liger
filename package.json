@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/glosik/liger#readme",
   "devDependencies": {
-    "web-ext": "^4.2.0"
+    "web-ext": "^4.3.0"
   }
 }
